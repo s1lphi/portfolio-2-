@@ -42,7 +42,7 @@ window.onload = function() {
 
   $(document).ready(function() {
     $.ajax({
-      url: "/sites/MORGUESITE/php/get_album_data.php",
+      url: "php/get_album_data.php",
       dataType: "json",
       success: function(data) {
         $.each(data, function(index, album) {
@@ -103,7 +103,7 @@ window.onload = function() {
     var data = null;
     
     $.ajax({
-      url: "/sites/MORGUESITE/php/get_album_data.php",
+      url: "php/get_album_data.php",
       dataType: "json",
       success: function(responseData) {
         data = responseData;
@@ -144,7 +144,7 @@ window.onload = function() {
     var singleData = null; 
   
     $.ajax({
-      url: "/sites/MORGUESITE/php/get_singles_data.php",
+      url: "php/get_singles_data.php",
       dataType: "json",
       success: function(responseData) {
         singleData = responseData;
