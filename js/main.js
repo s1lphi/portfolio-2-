@@ -65,7 +65,7 @@ window.onload = function() {
   };
 
 imagePoster1,imagePoster2,imagePoster3.addEventListener('click', () => {
-    window.location.href = "/sites/MORGUESITE/page/music.html";
+    window.location.href = "page/music.html";
 });
 
 imagePoster1.addEventListener('mouseover', () => {
